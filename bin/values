@@ -1,4 +1,4 @@
-require_relative "../lib/values.rb"
+require_relative"../lib/values.rb"
 
 groceries = {
   dairy: ["milk", "yogurt", "cheese"],
@@ -6,5 +6,5 @@ groceries = {
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 }
-
+binding.pry
 puts get_the_values(groceries)
